@@ -5,33 +5,57 @@
   </head>
 
   <body>
-      <div class="maindiv">
-        <button class="title">Login Form</button></br>
-            <label for="username" class="texts">Name:</label></td>
-        <input type="text" name="username" id="username" class="kadr" /></td>
-         </tr>
-         <tr>
-            <td ><label for="username" class="texts">Password:</label></td>
-            <td ><input type="password" name="pass" id="pass" class="kadr"/></td>
-         </tr>
-         <tr>
-            <td ><label for="ages" class="texts" >Age:</label><td>
-            <td ><input type="number" name="ages" id="ages" class="kadr"/></td>
-         </tr>
-         <tr>
-            <td ><label class="texts" >Gender:</label></td>
-            <td >
-               <input type="radio" name="male" id="male" value="male" />
-               <label for="male" class="radiotext" >Male</label>
-            </td>
-            <td ><input type="radio" name="female" id="female" value="female" />
-               <label for="female" class="radiotext" >Female</label>
-            </td>
-         <tr>
-            <td><input type="submit" class="sub"/></td>
-         </tr>
-        </table>
-  </div>
+    <div class="wrapper">
+      <div class="container">
+        <form class="form" method="get" action="https://www.google.com">
+          <header>
+            <h1>Login Form</h1>
+          </header>
+          <div class="input-wrapper">
+            <div class="title">
+              <label for="username">Name:</label>
+            </div> 
+            <div class="input">
+              <input type="text" name="username" id="username" />
+            </div>
+          </div>
+          <div class="input-wrapper">
+            <div class="title">
+              <label for="pass">Password:</label>
+            </div>
+            <div class="input">
+              <input type="password" name="pass" id="pass" />
+            </div>
+          </div>
+          <div class="input-wrapper">
+            <div class="title">
+              <label for="ages" >Age:</label>
+            </div>
+            <div class="input">
+              <input type="number" name="ages" id="ages" />
+            </div>  
+          </div>
+          <div class="input-wrapper">
+            <div class="title">
+              <label>Gender:</label>
+            </div>
+            <div class="input radio">
+              <div>
+                <input type="radio" name="gender" id="male" value="male" />
+                <label for="male">Male</label> 
+              </div>
+              <div>
+                <input type="radio" name="gender" id="female" value="female" />
+                <label for="female">Female</label>
+              </div>
+            </div>  
+          </div>
+        </form>
+        <div class="submit">
+          <input type="submit"/>
+        </div>  
+      </div>
+    </div>
   </body>
 
 
